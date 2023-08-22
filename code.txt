@@ -1,0 +1,32 @@
+check gunicorn log: sudo nano /var/log/gunicorn/gunicorn.err.log
+remove gunicorn log: sudo rm -rf /var/log/gunicorn/gunicorn.err.log
+
+nginx
+check status who has access to ec2 machine: who
+check log in nginx: ls /var/log
+
+RDS:
+postgres=# CREATE DATABASE aws_production_db;
+CREATE DATABASE
+postgres=# CREATE USER postgresAdmin WITH PASSWORD password;
+ERROR:  syntax error at or near "password"
+LINE 1: CREATE USER postgresAdmin WITH PASSWORD password;
+                                                ^
+postgres=# CREATE USER postgresAdmin WITH PASSWORD password;
+ERROR:  syntax error at or near "password"
+LINE 1: CREATE USER postgresAdmin WITH PASSWORD password;
+                                                ^
+postgres=# CREATE USER postgresAdmin WITH PASSWORD 'password';
+CREATE ROLE
+postgres=# ALTER ROLE postgresAdmin SET client_encoding TO 'utf8';
+ALTER ROLE
+postgres=# ALTER ROLE postgresAdmin SET default_transaction_isolation TO 'read_committed';
+ERROR:  invalid value for parameter "default_transaction_isolation": "read_committed"
+HINT:  Available values: serializable, repeatable read, read committed, read uncommitted.
+postgres=# ALTER ROLE postgresAdmin SET default_transaction_isolation TO 'read committed';
+ALTER ROLE
+postgres=# ALTER ROLE postgresAdmin SET timezone TO 'UTC';
+ALTER ROLE
+postgres=# GRANT ALL PRIVILEGES ON DATABASE aws_production_db TO postgresAdmin;
+GRANT
+postgres=# \q
