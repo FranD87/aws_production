@@ -33,6 +33,8 @@
     - sudo nano nginx_app_name.conf and update
     - sudo nginx -t
     - sudo ln nginx_app_name.conf /etc/nginx/sites-enabled (to link both entities)
+    - sudo systemctl status nginx (status)
+
 
 6. run the following commands to update supervisor
 

@@ -30,3 +30,180 @@ ALTER ROLE
 postgres=# GRANT ALL PRIVILEGES ON DATABASE aws_production_db TO postgresAdmin;
 GRANT
 postgres=# \q
+
+terminal Command:
+    1  ls
+    2  sud apt-get install supervisor
+    3  sudo apt-get install supervisor
+    4  sudo apt-get install -y nginx
+    5  sudo apt-get install python3-dev
+    6  sudo apt-get install python3-pip
+    7  sudo apt-get install python3-virtualenv
+    8  git clone https://github.com/FranD87/aws_production.git
+    9  ls
+   10  cd aws_production/
+   11  ls
+   12  cd ..
+   13  sudo apt install python3.10-venv
+   14  python3 -m venv venv
+   15  source bin/activate
+   16  source bin/venv/activate
+   17  source venv/bib/activate
+   18  python3 -m venv venv
+   19  source venv/bin/activate
+   20  python3 -m venv venv
+   21  source venv/bin/activate
+   22  ls
+   23  cd aws_production/
+   24  ls
+   25  cd aws_production/
+   26  cd aws_production/
+   27  cd ..
+   28  cd aws_production/
+   29  rm -rf aws_production/
+   30  cd ..
+   31  rm -rf aws_production/
+   32  ls
+   33  mkdir project
+   34  cd project/
+   35  git clone https://github.com/FranD87/aws_production.git
+   36  ls
+   37  cd aws_production/
+   38  ls
+   39  sudo apt-get install -y nginx
+   40  sudo apt-get install python3-dev
+   41  sudo apt-get install -y nginx
+   42  sudo apt-get install supervisor
+   43  ls
+   44  cd project/
+   45  cd ..
+   46  source venv/bin/activate
+   47  cd project/
+   48  ls
+   49  cd project/
+   50  source venv/bin/activate
+   51  cd ..
+   52  source venv/bin/activate
+   53  cd project/
+   54  cd ..
+   55  ls
+   56  cd ubuntu/
+   57  ls
+   58  deacitvate
+   59  deactivate
+   60  sudo apt-get update
+   61  sudo apt-get upgrade
+   62  sudo apt-get install supervisor
+   63  sudo apt-get install -y nginx
+   64  sudo apt-get install python3-dev
+   65  sudo apt-get install python3-pip
+   66  sudo apt-get install python3-virtualenv
+   67  source venv/bin/activate
+   68  cd project/
+   69  ls
+   70  cd aws_production/
+   71  ls
+   72  cd ..
+   73  ls aws_production/
+   74  cd aws_production/
+   75  deactivate
+   76  source venv/bin/activate
+   77  python3 -m venv venv
+   78  source venv/bin/activate
+   79  ls
+   80  cd ..
+   81  deactivate
+   82  git clone https://github.com/FranD87/aws_production.git
+   83  ls
+   84  rm -rf aws_production/
+   85  ls
+   86  rm -rf project/
+   87  mkdir project
+   88  ls
+   89  cd project/
+   90  git clone https://github.com/FranD87/aws_production.git
+   91  ls
+   92  cd aws_production/
+   93  source venv/bin/activate
+   94  python3 -m venv venv
+   95  source venv/bin/activate
+   96  ls
+   97  pip install -r requirements.txt
+   98  ls etc
+   99  ls
+  100  ls /etc/
+  101  cd project/
+  102  cd aws_production/
+  103  source venv/bin/activate
+  104  cd /etc/supervisor
+  105  cd /conf.d/
+  106  cd ..
+  107  ls
+  108  cd ..
+  109  ls
+  110  cd project/
+  111  cd aws_production/
+  112  cd /etc/supervisor/conf.d/
+  113  ls
+  114  cd project/
+  115  cd aws_production/
+  116  source venv/bin/activate
+  117  cd /etc/supervisor/conf.d/
+  118  nano gunicon.conf
+  119  cd project/
+  120  cd aws_production/
+  121  source venv/bin/activate
+  122  cd /etc/supervisor/conf.d/
+  123  sudo nano gunicorn.conf
+  124  sudo mkdir /var/log/gunicorn
+  125  ls
+  126  sudo nano gunicorn.conf
+  127  ls /var/log/
+  128  pip install gunicorn
+  129  sudo supervisorctl reread
+  130  sudo nano gunicorn.conf
+  131  sudo supervisorctl reread
+  132  sudo supervisorctl update
+  133  sudo supervisorctl status
+  134  sudo nano gunicorn.conf
+  135  sudo supervisorctl reread
+  136  sudo supervisorctl update
+  137  sudo supervisorctl status
+  138  sudo supervisorctl reread
+  139  sudo supervisorctl update
+  140  sudo supervisorctl status
+  141  sudo supervisorctl reread
+  142  sudo supervisorctl update
+  143  sudo supervisorctl status
+  144  sudo nano gunicorn.conf
+  145  sudo supervisorctl reread
+  146  sudo supervisorctl update
+  147  sudo supervisorctl status
+  148  cd /etc/nginx/
+  149  ls
+  150  cd project/
+  151  cd aws_production/
+  152  pwd
+  153  ls venv/bin/
+  154  cd project/
+  155  cd aws_production/
+  156  source venv/bin/activate
+  157  cd /etc/supervisor/conf.d
+  158  sudo supervisorctl reread
+  159  sudo supervisorctl update
+  160  sudo supervisorctl status
+  161  cd project/
+  162  cd aws_production/
+  163  source venv/bin/activate
+  164  cd /etc/supervisor/conf.d
+  165  sudo supervisorctl reread
+  166  sudo supervisorctl update
+  167  sudo supervisorctl status
+  168  sudo nano /var/log/gunicorn/gunicorn.er
+  169  sudo nano gunicorn.conf
+  170  sudo supervisorctl reread
+  171  sudo nano gunicorn.conf
+  172  cd /etc/supervisor
+  173  cd conf.d/
+  174  sudo nano gunicorn.conf
+  175  history
